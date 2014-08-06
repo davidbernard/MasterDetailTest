@@ -26,10 +26,15 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testExample1
 {
     XCTFail(@"No implementation for this interesting function with the following name\"%s\"", __PRETTY_FUNCTION__);
    
+}
+- (void)testExample2
+{
+    XCTFail(@"No implementation for this interesting function with the following name\"%s\"", __PRETTY_FUNCTION__);
+    
 }
 
 @end
