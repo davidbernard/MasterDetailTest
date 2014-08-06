@@ -33,7 +33,7 @@
 }
 - (void)testExample2
 {
-    XCTFail(@"No implementation for this second interesting function with the following name\"%s\"", __PRETTY_FUNCTION__);
+    XCTFail(@"No implementation for this second less interesting function with the following name\"%s\"", __PRETTY_FUNCTION__);
     
 }
 
